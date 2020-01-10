@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.trackInput {
+  background: transparent;
+  border-radius: 12px;
+  padding: 12px;
+  outline: none;
+  border: 1.5px solid #ff7878;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.box {
+  display: block;
+  text-align: center;
+}
+
+.btn {
+  margin: 10px;
+  background: transparent;
+  border-radius: 12px;
+  padding: 7px 50px;
+  outline: none;
+  border: 1.5px solid #ff7878;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ff7878;
+  color: white;
+}
+
+.btn:active {
+  transform: translateY(3px);
+}
+
+.list {
+  font-size: 22px;
+}
+
+::selection {
+  background: black;
+  color: white;
+}
